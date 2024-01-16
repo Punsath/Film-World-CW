@@ -1,0 +1,46 @@
+body{
+    background-image: url("imagesl/rdfcg.jpg");
+}
+  
+.signUp{
+    width: 360px;
+    height: 580px;
+    margin: auto;
+    background-color: rgb(234, 146, 15);
+}
+  
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family:'roboto', sans-serif;   
+}
+  
+form{
+    width: 299px;
+    margin-left: 20px;
+}
+  
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+form input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+input[type="submit"]{
+    width: 320px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+}
+
+input[type="submit"]:hover{
+    background-color: #444535;
+}

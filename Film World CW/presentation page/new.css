@@ -1,0 +1,43 @@
+body{
+    
+    background-image: url("imagesp/cover12.jpg");
+}
+#h1{
+    font-size: 6em;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    left: 25%;
+    -webkit-text-stroke: 0.3vw black;
+    -webkit-text-stroke-width: 0.25mm;
+    color: red; 
+    animation-name: change; /*https://www.w3schools.com/css/css3_animations.asp*/
+    animation-duration: 8s;
+}
+@keyframes change { 
+    0%   {color: red;}
+    25%  {color: rgba(210, 65, 7, 0.54);}
+}
+
+.members{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    left: 25%;  
+    margin-top: 10;
+}
+
+.members label{
+    line-height: 30pt;
+}

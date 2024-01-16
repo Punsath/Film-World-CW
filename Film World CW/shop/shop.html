@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film World shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js"></script>
+                            <!--box icon-->
+    <!--The <script> element either contains scripting statements, or it points to an external script file through the src attribute.-->
+    <style>
+        body{
+            background-image: url("imagess/E0C7DF7E-25DC-4AAF-9219-5EFC9B103A62.JPEG.jpg");
+        }
+    </style>    
+</head>
+
+
+<body>
+
+    <div class="naviBar">
+        <ul class="naviLinks" >
+            <li id="1" class="navItems"><a href="MainPage.html"><b>Home</b></a></li>
+            <li id="2" class="navItems"><a href="shop.html"><b>Shop</b></a></li>
+            <li id="3" class="navItems"><a href="start.html"><b>Quiz</b></a></li>
+            <li id="4" class="navItems"><a href="CommentPage.html"><b>Comments</b></a></li>
+            <li id="5" class="navItems"><a href="movies.html"><b>Gallery</b></a></li>
+            <li id="6" class="navItems"><a href="index.html"><b>Site Map</b></a></li> 
+            <li class="navItems"><a href="StudentD.html"><b>About Us</b></a></li>      
+            <!-- <br><br><br> -->
+        </ul>
+        
+        <div>
+            <h1><a class="pgName" id="pageName" contenteditable="true"><b>FILM WORLD</b></a></h1> 
+        </div>
+    
+    </div><br><br><br> 
+
+    <div id="nameBox">
+        <p id="name">Film World Shop</p> <!--https://fontawesome.com/icons/shopping-cart?s=solid&f=classic-->
+        <div id="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+    </div>                           <!-- cart logo -->
+    <div id="content">
+        <div id="filmRow"></div><!--https://legacy.reactjs.org/docs/rendering-elements.html-->
+        <div id="cartSidebar">
+            <div id="myCart"><p>Cart</p></div>
+            <div id="cartItem"><label id="empty">Your cart is empty</label> </div>
+            <div class="count">
+                <h2>Total</h2>
+                <h2 id="total">$ 0.00</h2>
+            </div>
+            <div>
+                <a href="login.html"><input type="button" value="Buy" id="buyButton" onclick="return ValidateButton(); openPage();"></a>
+            </div>
+        </div>
+    </div>
+    <script src="shop.js"></script>
+
+    <div class="scroll-container" style="color: aqua;">
+        <a href="#top">&#8686;</a>
+        <p>scroll to Top</p>
+    </div>
+
+    <div class="pgEditor" style="text-align: center;">
+        <a href="editor.html" style="color: #fff;">Page Editor</a>
+    </div>
+
+    <script>
+        function openPage(){
+            window.location.href= "login.html";
+        }
+    </script>
+
+</body>
+</html>

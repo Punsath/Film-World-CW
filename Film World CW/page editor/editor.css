@@ -1,0 +1,31 @@
+.pageEditor{
+    text-align: center;
+}
+h3{
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: rgb(249, 86, 86);
+    padding-bottom: 5px;   
+}
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+.pages{
+    background-color:rgb(249, 86, 86);
+    padding-bottom: 80px;
+}
+.pageName {
+    font-size: 14px;
+    padding-top: 10px;
+}
+.include h5{
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0.5%;
+}
+.img{
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+}
